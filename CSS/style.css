@@ -68,6 +68,7 @@ a{
 
 .logo{
   font-size: 2rem;
+  font-weight: 900;
   color: #f9faf8;
 }
 
@@ -75,6 +76,13 @@ a{
   font-size: 1.125rem;
   color: #e5e7eb;
   margin-left: 1rem;
+}
+
+.links a:hover{
+  padding: .3rem;
+  background-color: #ffffff69;
+  border-radius: 15px;
+  color: #1f2937;
 }
 
 .hero-2da-parte{
@@ -112,6 +120,11 @@ a{
   font-weight: 600;
 }
 
+.button-inicio:hover{
+  background-color: #c6cdda;
+  color: #1f2937;
+}
+
 .img-inicio{
   background-color: #ffffff69;
   flex-grow: 1;
@@ -130,14 +143,16 @@ a{
 /******************************** SECTION INFO RANDOM ***************/
 
 .section-info-random{
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
 .text-random-info{
+  margin: 0;
   font-size: 2.5rem;
   font-weight: 900;
   color: #1f2937;
@@ -169,7 +184,7 @@ a{
 /******************************* SECTION QUOTE ********************/
 
 .section-quote{
-  min-height: 40vh;
+  min-height: 70vh;
   background-color: #dadfebe1;
   color: #1f2937;
   font-size: 2rem;
@@ -207,7 +222,42 @@ a{
 
 .section-action{
   display: flex;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.div-action{
+    background-color: #3882f6;
+    min-height: 10rem;
+    min-width: 70%;
+    color: #fff;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-text-action{
+
+}
+
+.button-action{
+  border: #fff solid 1px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 0.5rem 1.8rem;
+  font-weight: 600;
+}
+
+.button-action:hover{
+  background-color: #c6cdda;
+  color: #1f2937;
+}
+
+
 
 
 
@@ -217,7 +267,7 @@ footer{
   font-size: 1.125rem;
   color: #e5e7eb;
   background-color: #1f2937;
-  padding: 1rem;
+  padding: 2.5rem 1rem;
 
   display: flex;
   justify-content: center;
