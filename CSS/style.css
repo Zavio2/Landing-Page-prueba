@@ -134,17 +134,32 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.text-random-info{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 0%;
 }
 
 .div-info-random{
   display: flex;
   gap: 2rem;
+  margin: 3rem 0;
 }
 
 .img-info{
   width: 12.5rem;
   height: 10rem;
   border-radius: 10px;
+  border: solid 2px #1f2937;
+}
+
+.text-img-random{
+  margin-top: 0.2rem;
+  font-weight: 700;
 }
 
 /******************************* SECTION QUOTE ********************/
