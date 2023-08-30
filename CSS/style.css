@@ -22,16 +22,108 @@ main{
   flex-grow: 1;
 }
 
+img{
+  max-width: 100%;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
 
 /*********************************  SECTION HERO ********************/
 
 .section-hero{
+  min-height: 40vh;
+  background-color: #1f2937;
+
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 
+.header{
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  padding: 0;
+  width: 80%;
 
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
 
+.hero-1ra-parte{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo{
+  font-size: 2rem;
+  color: #f9faf8;
+}
+
+.links a{
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  margin-left: 1rem;
+}
+
+.hero-2da-parte{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.div-main-text{
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-big{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.text-small{
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+
+.button-inicio{
+  
+  background-color: #3882f6;
+  border-radius: 20px;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+
+}
+
+.img-inicio{
+  background-color: #e5e7ebd8;
+  flex-grow: 1;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-img{
+  color: #1f2937b2;
+}
 
 
 /******************************** SECTION INFO RANDOM ***************/
@@ -39,10 +131,20 @@ main{
 .section-info-random{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.
+.div-info-random{
+  display: flex;
+  gap: 2rem;
+}
 
+.img-info{
+  width: 12.5rem;
+  height: 10rem;
+  border-radius: 10px;
+}
 
 /******************************* SECTION QUOTE ********************/
 
@@ -62,3 +164,14 @@ main{
 
 
 /**************************** FOOTER *****************************/
+
+footer{
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
