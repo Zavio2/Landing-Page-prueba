@@ -241,7 +241,14 @@ a{
 }
 
 .div-text-action{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
 
+.text-action1{
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .button-action{
