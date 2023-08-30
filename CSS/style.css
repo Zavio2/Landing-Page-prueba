@@ -1,12 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+
+/************* FORMATOS GENERALES ********************/
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
+
 body {
   font-family: Roboto, sans-serif;
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
 }
+
+main{
+  flex-grow: 1;
+}
+
+
+/*********************************  SECTION HERO ********************/
+
+.section-hero{
+  display: flex;
+}
+
+
+
+
+
+
+/******************************** SECTION INFO RANDOM ***************/
+
+.section-info-random{
+  display: flex;
+  flex-direction: column;
+}
+
+.
+
+
+/******************************* SECTION QUOTE ********************/
+
+.section-quote{
+  display: flex;
+}
+
+
+
+
+/******************************* SECTION ACTION *******************/
+
+.section-action{
+  display: flex;
+}
+
+
+
+/**************************** FOOTER *****************************/
