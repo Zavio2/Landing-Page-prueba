@@ -146,8 +146,12 @@ a{
 
 .div-info-random{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
+
   margin: 3rem 0;
+  width: 80%;
 }
 
 .img-info{
@@ -165,7 +169,35 @@ a{
 /******************************* SECTION QUOTE ********************/
 
 .section-quote{
+  min-height: 40vh;
+  background-color: #dadfebe1;
+  color: #1f2937;
+  font-size: 2rem;
+  font-style: italic;
+
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote{
+  margin: 0%;
+  padding: 5rem;
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+
+.cite{
+  
+  align-self: flex-end;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 
