@@ -89,6 +89,7 @@ a{
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .div-main-text{
@@ -128,7 +129,8 @@ a{
 .img-inicio{
   background-color: #ffffff69;
   flex-grow: 1;
-  width: 50%;
+  height: 30vh;
+  /* width: 50%; */
 
   display: flex;
   justify-content: center;
@@ -188,7 +190,6 @@ a{
   min-height: 70vh;
   background-color: #dadfebe1;
   color: #1f2937;
-  font-size: 2rem;
   font-style: italic;
 
   display: flex;
@@ -198,7 +199,7 @@ a{
 
 .quote{
   margin: 0%;
-  padding: 5rem;
+  padding: 1rem;
   width: 80%;
 
   display: flex;
@@ -227,6 +228,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .div-action{
@@ -235,6 +237,7 @@ a{
     min-width: 70%;
     color: #fff;
     border-radius: 10px;
+    padding: 1rem;
 
     display: flex;
     justify-content: space-evenly;
